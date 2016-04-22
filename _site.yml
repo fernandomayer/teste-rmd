@@ -34,6 +34,8 @@ navbar:
           href: page_c.html
         - text: "Page D"
           href: page_d.html
+    - text: "Slides"
+      href: page_a.html
   right:
     - text: GitHub
       icon: fa-github fa-lg
