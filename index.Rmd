@@ -2,6 +2,11 @@
 title: "My Website"
 ---
 
+```{r setup, include=FALSE}
+source("knitr_setup.R")
+```
+
+
 Hello, Website!
 
 # A title
@@ -15,3 +20,8 @@ A sub title.
 # Another
 
 Some goes here.
+
+```{r unif}
+x <- runif(200)
+hist(x)
+```

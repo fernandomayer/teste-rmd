@@ -8,7 +8,7 @@ source("knitr_setup.R")
 
 More about this website.
 
-```{r}
+```{r norm}
 x <- rnorm(10)
 hist(x)
 ```

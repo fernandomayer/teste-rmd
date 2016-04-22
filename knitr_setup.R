@@ -1,6 +1,6 @@
 library(knitr)
+## knitr options
 opts_chunk$set(
-    ## knitr options
     cache = TRUE,
     tidy = FALSE,
     comment = NA,
@@ -12,3 +12,6 @@ opts_chunk$set(
     fig.path = "figures/",
     cache.path = "cache/"
     )
+
+## Set a common seed for all files
+set.seed(100)
