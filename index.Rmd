@@ -21,7 +21,15 @@ A sub title.
 
 Some goes here.
 
+The Poisson distribution is
+
+$$
+P[Y = y] = \frac{e^{-\mu} \mu^{y}}{y!}
+$$
+
+And a plot is
+
 ```{r unif}
-x <- runif(200)
+x <- rpois(200, lambda = 5.3)
 hist(x)
 ```

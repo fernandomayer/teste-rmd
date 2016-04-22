@@ -365,7 +365,12 @@ div.tocify {
 <div id="another" class="section level1">
 <h1>Another</h1>
 <p>Some goes here.</p>
-<pre class="r"><code>x &lt;- runif(200)
+<p>The Poisson distribution is</p>
+<p><span class="math display">\[
+P[Y = y] = \frac{e^{-\mu} \mu^{y}}{y!}
+\]</span></p>
+<p>And a plot is</p>
+<pre class="r"><code>x &lt;- rpois(200, lambda = 5.3)
 hist(x)</code></pre>
 <p><img src="figures/unif-1.png" title="" alt="" width="672" style="display: block; margin: auto;" /></p>
 </div>
